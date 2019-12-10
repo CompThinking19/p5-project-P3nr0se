@@ -19,6 +19,8 @@ function draw() {
     line(mouseX, mouseY, pmouseX, pmouseY);
   }
 //Making an eraser tool
- if (mouseIsPressed === true && erasing === true) {}
-    line(mouseX, mouseY, pmouseX, pmouseY);
+ if (mouseIsPressed === true && erasing === true) {
+   stroke(255, 255, 255)
+   line(mouseX, mouseY, pmouseX, pmouseY);
+  }
 }
